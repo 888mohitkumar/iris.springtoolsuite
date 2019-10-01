@@ -1,0 +1,5 @@
+package com.iris.peopleManagement.app.dao;
+
+public interface  PeopleManagementDao extends CurdRepository<Person,Integer>{
+
+}

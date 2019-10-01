@@ -1,0 +1,18 @@
+package com.iris.peopleManagement.app.dao;
+import  com.iris.peopleManagement.app.entities.*;
+
+import java.util.List;
+
+import javax.persistence.NamedNativeQuery;
+
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+
+
+public interface  PeopleManagementDao extends CrudRepository<Person,Integer>{
+
+
+
+}

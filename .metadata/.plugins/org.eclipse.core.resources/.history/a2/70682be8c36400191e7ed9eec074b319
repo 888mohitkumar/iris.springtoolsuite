@@ -1,0 +1,6 @@
+package com.spring.modal;
+
+public class ErrorJson {
+	private int status;
+	private String reason;
+}

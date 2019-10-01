@@ -1,0 +1,14 @@
+package com.iris.book.ticket.app.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.iris.book.ticket.app.entities.Ticket;
+
+@RestController
+public class TicketBookingController {
+
+	public Ticket createTicket(Ticket ticket)
+	{
+		
+	}
+}

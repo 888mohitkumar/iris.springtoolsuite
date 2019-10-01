@@ -1,0 +1,36 @@
+package com.iris.peopleManagement.app;
+
+import java.util.Date;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.iris.peopleManagement.app.entities.Person;
+import com.iris.peopleManagement.app.service.PeopleManagementService;
+
+@SpringBootApplication
+public class PeopleManagementDataAppApplication implements CommandLineRunner{
+
+	@Autowired
+	private PeopleManagementService peopleManagementService;
+	public static void main(String[] args) {
+		SpringApplication.run(PeopleManagementDataAppApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		createPerson();
+		
+		createPersons();
+		
+	}
+
+	private void createPerson() {
+		Person person1 = new Person("Ram", "Shri", "ram@gmail.com", new Date());
+		Person personDb=peopleManagementService.createPerson(person1);
+		System.out.println(personDb);
+	}
+
+}

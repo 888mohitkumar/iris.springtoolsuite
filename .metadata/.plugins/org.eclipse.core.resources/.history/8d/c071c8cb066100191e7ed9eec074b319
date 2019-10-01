@@ -1,0 +1,11 @@
+server.port=9090
+
+
+logging.level.root=info
+
+#logging.level.org.org.springframwork.web=info
+
+
+logging.level.com.com.spring.example=info
+
+logging.pattern.console=%d{yyyy--mm--dd hh:mm:ss} - %msg%n

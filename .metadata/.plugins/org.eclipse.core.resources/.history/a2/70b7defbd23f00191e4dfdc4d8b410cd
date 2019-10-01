@@ -1,0 +1,6 @@
+package com.iris.book.ticket.app.dao;
+
+@Repository
+public class TicketBookingDao {
+
+}

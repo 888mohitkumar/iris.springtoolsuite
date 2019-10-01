@@ -1,0 +1,36 @@
+package com.iris.book.ticket.app.entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+@Entity
+@Table(name="ticket")
+public class Ticket {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name="ticket_id")
+	private  Integer ticketId;
+	
+	@Column(name="pessanger_name",nullable=false)
+	private String pessangerName;
+	
+	@Column(name="booking_date",nullable=false)
+	private String bookingDate;	
+	
+	@Column(name="source_station",nullable=false)
+	private String sourceStation;
+	
+	@Column(name="dest_station",nullable=false)
+	private String destStation;	
+	
+	@Column(name="email",nullable=false)
+	private String email;			
+	
+}

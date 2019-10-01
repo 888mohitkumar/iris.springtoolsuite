@@ -1,0 +1,9 @@
+package com.iris.peopleManagement.app.dao;
+import  com.iris.peopleManagement.app.entities.*;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+
+public interface  PeopleManagementDao extends CrudRepository<Person,Integer>{
+
+}

@@ -1,0 +1,7 @@
+package com.iris.book.ticket.app.controller;
+
+
+@RestController
+public class TicketBookingController {
+
+}

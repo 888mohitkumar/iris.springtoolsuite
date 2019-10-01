@@ -1,0 +1,14 @@
+package com.spring.example.config;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class QAProfile implements EnvBaseConfig {
+
+	@Override
+	public void setup() {
+		System.out.println("QA profile ::::::::::::::::::::");
+
+	}
+
+}

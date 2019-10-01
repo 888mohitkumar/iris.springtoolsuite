@@ -1,0 +1,8 @@
+package com.iris.book.ticket.app.dao;
+
+import org.springframework.data.repository.RepositoryDefinition;
+
+@Repository
+public class TicketBookingDao {
+
+}

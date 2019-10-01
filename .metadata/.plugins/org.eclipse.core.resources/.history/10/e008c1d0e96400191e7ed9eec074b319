@@ -1,0 +1,11 @@
+package com.spring.example.config;
+
+public class QAProfile implements EnvBaseConfig {
+
+	@Override
+	public void setup() {
+		System.out.println("QA profile ::::::::::::::::::::");
+
+	}
+
+}

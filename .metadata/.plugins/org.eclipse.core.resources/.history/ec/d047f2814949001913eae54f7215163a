@@ -1,0 +1,19 @@
+package com.iris;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		List al = new ArrayList<>();
+		al.add(1);
+		al.add(2);
+		al.add(3);
+		al.add(4);
+		//Stream s = al.stream().filter((s)->{s>1});
+		Stream s = al.stream().filter((s)->{s>1});
+	}
+
+}

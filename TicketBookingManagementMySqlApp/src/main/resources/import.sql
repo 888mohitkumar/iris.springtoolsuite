@@ -1,0 +1,1 @@
+insert into ticket (booking_date, dest_station, email, pessanger_name, source_station) values ('2019/03/26', 'mumbai', 'laxman@gmail.com', 'laxman', 'delhi')

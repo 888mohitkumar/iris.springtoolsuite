@@ -1,0 +1,17 @@
+package com.iris.book.ticket.app;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.iris.book.ticket.app.service.TicketBookingService;
+
+@SpringBootApplication
+public class TicketBookingManagementAppApplication {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext run = SpringApplication.run(TicketBookingManagementAppApplication.class, args);
+		run.getBean("ticketBookingService", TicketBookingService.class);
+	}
+
+}

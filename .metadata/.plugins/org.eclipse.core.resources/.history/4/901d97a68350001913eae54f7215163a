@@ -1,0 +1,5 @@
+package com.iris.peopleManagement.app.entities;
+
+public class Person {
+
+}

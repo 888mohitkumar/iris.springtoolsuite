@@ -1,0 +1,16 @@
+package com.iris.peopleManagement.app.service;
+
+import org.springframework.stereotype.Service;
+
+import com.iris.peopleManagement.app.dao.PeopleManagementDao;
+import com.iris.peopleManagement.app.entities.Person;
+
+@Service
+public class PeopleManagementService {
+	
+	private PeopleManagementDao peopleManagementDao;
+	public  Person createPerson(Person person1) {
+
+	}
+
+}

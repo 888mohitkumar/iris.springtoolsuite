@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;PeopleManagementDataQueryMathodApp&apos; to &apos;PeopleManagementDataJpaQueryMathodApp&apos;&#x0D;&#x0A;- Original element: &apos;PeopleManagementDataQueryMathodApp&apos;&#x0D;&#x0A;- Renamed element: &apos;PeopleManagementDataQueryMathodApp&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;PeopleManagementDataQueryMathodApp&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=PeopleManagementDataQueryMathodApp" name="PeopleManagementDataJpaQueryMathodApp" references="true" stamp="1553842098797" version="1.0"/>
+</session>

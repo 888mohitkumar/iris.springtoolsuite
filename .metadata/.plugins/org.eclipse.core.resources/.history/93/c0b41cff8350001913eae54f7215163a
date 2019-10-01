@@ -1,0 +1,28 @@
+package com.iris.peopleManagement.app.entities;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="person_table")
+public class Person {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name="person_id")
+	private int id;
+	@Column(name="first_name")
+	private String firtstName;
+	@Column(name="last_name")
+	private String lastName;
+	//@Column(name="email")
+	private String email;
+	@Column(name="creation_date")
+	private Date creattionDate;
+}

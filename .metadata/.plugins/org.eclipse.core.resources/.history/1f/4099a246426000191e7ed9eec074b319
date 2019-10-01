@@ -1,0 +1,9 @@
+spring.jpa.show-sql=true
+server.port=9090
+management.security.enabled=false
+
+management.port=9191
+
+endpoints.env.id=myenv
+endpoints.env.sensitive=false
+endpoints.env.enabled=false

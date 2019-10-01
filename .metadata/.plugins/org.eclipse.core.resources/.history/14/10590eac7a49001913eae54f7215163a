@@ -1,0 +1,51 @@
+package com.iris.wordCount;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+public class WordCount {
+
+	public static void main(String[] args) throws IOException {
+		
+		/*
+		 * int countWord = 0; int sentenceCount = 0; int characterCount = 0; int
+		 * paragraphCount = 1; int whitespaceCount = 0;
+		 * 
+		 * String line ; File file = new File("D://abc.txt"); FileInputStream fis = new
+		 * FileInputStream(file); InputStreamReader isr = new InputStreamReader(fis);
+		 * BufferedReader br = new BufferedReader(isr); //line = br.readLine();
+		 * while((line = br.readLine())!=null) { if(line.equals("")) { paragraphCount++;
+		 * continue; } characterCount = characterCount + line.length(); String[] split =
+		 * line.split("\\s+"); countWord = countWord + split.length; whitespaceCount +=
+		 * countWord-1; String[] split2 = line.split("[!?.:]+"); sentenceCount +=
+		 * split2.length; }
+		 * 
+		 * System.out.println("Total word count = " + countWord);
+		 * System.out.println("Total number of sentences = " + sentenceCount);
+		 * System.out.println("Total number of characters = " + characterCount);
+		 * System.out.println("Number of paragraphs = " + paragraphCount);
+		 * System.out.println("Total number of whitespaces = " + whitespaceCount);
+		 */	
+		
+		BufferedReader isr = new BufferedReader(new InputStreamReader(System.in));
+		 
+        Scanner sc = new Scanner(System.in);
+ 
+        System.out.println("B.R. - "+(char)isr.read());
+        System.out.println("Scanner - " + sc.nextLine()); 
+        
+        
+        
+        
+        InputStreamReader isr2 = new InputStreamReader(System.in);
+        
+        Scanner sc2 = new Scanner(System.in);
+ 
+        System.out.println("I.S.R. - "+(char)isr2.read());
+        System.out.println("Scanner - " + sc2.nextLine());
+		
+	}
+
+}

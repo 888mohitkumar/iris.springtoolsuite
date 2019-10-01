@@ -1,0 +1,5 @@
+package com.spring.example.config;
+
+public class EnvBaseConfig {
+
+}

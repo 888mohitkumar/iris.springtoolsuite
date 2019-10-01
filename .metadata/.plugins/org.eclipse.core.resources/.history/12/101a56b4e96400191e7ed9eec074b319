@@ -1,0 +1,11 @@
+package com.spring.example.config;
+
+public class DevProfile implements EnvBaseConfig {
+
+	@Override
+	public void setup() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

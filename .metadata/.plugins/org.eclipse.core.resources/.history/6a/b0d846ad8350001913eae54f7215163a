@@ -1,0 +1,15 @@
+package com.iris.peopleManagement.app.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="person_table")
+public class Person {
+
+	private int id;
+	private String firtstName;
+	private String lastName;
+	private String email;
+	private Date creattionDate;
+}

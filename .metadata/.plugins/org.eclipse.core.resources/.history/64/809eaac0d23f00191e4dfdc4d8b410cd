@@ -1,0 +1,6 @@
+package com.iris.book.ticket.app.service;
+
+@Service
+public class TicketBookingService {
+
+}
